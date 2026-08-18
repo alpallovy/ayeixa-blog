@@ -6,3 +6,11 @@ open-source:
   label: Open source
   permalink: /open-source
   description: Open-source related posts
+radar:
+  label: Radar
+  permalink: /radar
+  description: Market-radar ingest notes (not adoption claims)
+provenance:
+  label: Provenance
+  permalink: /provenance
+  description: Source and evidence notes
