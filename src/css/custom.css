@@ -1,0 +1,32 @@
+/**
+ * AYEIXA documentation / blog theme.
+ * Primary green is darkened for WCAG AA contrast on white.
+ */
+
+:root {
+  --ifm-color-primary: #1b5e3b;
+  --ifm-color-primary-dark: #175233;
+  --ifm-color-primary-darker: #144d30;
+  --ifm-color-primary-darkest: #103f27;
+  --ifm-color-primary-light: #1f6a43;
+  --ifm-color-primary-lighter: #227248;
+  --ifm-color-primary-lightest: #2a8856;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #3dce8a;
+  --ifm-color-primary-dark: #2fc47c;
+  --ifm-color-primary-darker: #2bb974;
+  --ifm-color-primary-darkest: #24985f;
+  --ifm-color-primary-light: #55d497;
+  --ifm-color-primary-lighter: #63d89f;
+  --ifm-color-primary-lightest: #89e2b6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}

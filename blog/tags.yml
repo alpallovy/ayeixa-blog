@@ -1,0 +1,8 @@
+engineering:
+  label: Engineering
+  permalink: /engineering
+  description: Engineering notes
+open-source:
+  label: Open source
+  permalink: /open-source
+  description: Open-source related posts
