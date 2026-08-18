@@ -31,7 +31,8 @@
   outline-offset: 2px;
 }
 
-/* WCAG 1.4.1: links in body copy must not rely on color alone */
-.markdown a {
+/* WCAG 1.4.1: inline links in MDX pages are not wrapped in .markdown */
+article p a,
+article li a {
   text-decoration: underline;
 }
