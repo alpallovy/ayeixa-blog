@@ -30,3 +30,8 @@
   outline: 3px solid var(--ifm-color-primary);
   outline-offset: 2px;
 }
+
+/* WCAG 1.4.1: links in body copy must not rely on color alone */
+.markdown a {
+  text-decoration: underline;
+}
